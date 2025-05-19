@@ -1,0 +1,513 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>jQuery Slot Machine</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="d58Et_hG0KrLc6xKv03J8U5NA6jqak0kCFxBaz7Y1MM" />
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+	<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+<script src="script.js"></script>
+<style type="text/css">
+
+
+.slot__outer {
+    //background: #d6d91f url(img/borderImg1.svg);
+	 background: #ffffff url(img/borderImg1.svg);
+    box-shadow: .625rem .625rem 0 rgba(0, 0, 0, .2);
+	
+    margin: 0 auto;
+   
+   
+    z-index: 3;
+	}
+	body
+	{
+	 background: #ffbf1f url(img/gift2.avif);
+	 
+	background-size: cover;
+    background-repeat: no-repeat;
+	}
+	.todoClass
+	{margin-top:5%;}
+	.panel{
+	background-color:transparent !important;
+	}
+	
+	.btn-success {
+    color: #fff;
+    background-color: white !important;
+    border-color: white !important;
+    color: black !important;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container" style="color:#fff;text-align:center;margin-top:-50px;font-weight:bold;height:100px">
+
+
+<div class="panel panel-primary" style="margin-bottom:0px;border:0px;background-color:transparent">
+ <div class="panel-body" style="display:grid;padding:0px;padding-top:2% !important">
+<a class="navbar-brand" href="#" style="text-align:center;color:white;font-size:40px">
+
+Digital Discovery Day (D3)
+ 
+ </a>
+</div>
+</div>
+
+		
+<form id="todo" class="todoClass">
+
+        <div class="panel panel-primary" style="border:0px">
+            <div class="panel-heading" style="text-align:center;background:none;border:0px">
+			   <img src="img/npLogoTrans.png" alt="LIB Logo" style="height:80px">
+			</div>
+            <div class="panel-body" style="text-align:center">
+                <div class="well1">
+                    
+                </div>
+				
+				
+			
+                <div class="slotwrapper slot__outer" id="example11" style="width: auto;padding-left:80px;padding-right:80px">
+                    <ul style="width: auto;color:#341212" id="MainULList">
+							<li id="removeLITest">---------</li>
+						   <li id='liID1'>1008971</li>
+<li id='liID2'>1008972</li>
+<li id='liID3'>1008973</li>
+<li id='liID4'>1008974</li>
+<li id='liID5'>1008975</li>
+<li id='liID6'>1008976</li>
+<li id='liID7'>1008977</li>
+<li id='liID8'>1008978</li>
+<li id='liID9'>1008979</li>
+<li id='liID10'>1008980</li>
+<li id='liID11'>1008981</li>
+<li id='liID12'>1008982</li>
+<li id='liID13'>1008983</li>
+<li id='liID14'>1008984</li>
+<li id='liID15'>1008985</li>
+<li id='liID16'>1008986</li>
+<li id='liID17'>1008987</li>
+<li id='liID18'>1008988</li>
+<li id='liID19'>1008989</li>
+<li id='liID20'>1008990</li>
+<li id='liID21'>1008991</li>
+<li id='liID22'>1008992</li>
+<li id='liID23'>1008993</li>
+<li id='liID24'>1008994</li>
+<li id='liID25'>1008995</li>
+<li id='liID26'>1008996</li>
+<li id='liID27'>1008997</li>
+<li id='liID28'>1008998</li>
+<li id='liID29'>1008999</li>
+<li id='liID30'>1009000</li>
+<li id='liID31'>1009001</li>
+<li id='liID32'>1009002</li>
+<li id='liID33'>1009003</li>
+<li id='liID34'>1009004</li>
+<li id='liID35'>1009005</li>
+<li id='liID36'>1009006</li>
+<li id='liID37'>1009007</li>
+<li id='liID38'>1009008</li>
+<li id='liID39'>1009009</li>
+<li id='liID40'>1009010</li>
+<li id='liID41'>1009011</li>
+<li id='liID42'>1009012</li>
+<li id='liID43'>1009013</li>
+<li id='liID44'>1009014</li>
+<li id='liID45'>1009015</li>
+<li id='liID46'>1009016</li>
+<li id='liID47'>1009017</li>
+<li id='liID48'>1009018</li>
+<li id='liID49'>1009019</li>
+<li id='liID50'>1009020</li>
+<li id='liID51'>1009021</li>
+<li id='liID52'>1009022</li>
+<li id='liID53'>1009023</li>
+<li id='liID54'>1009024</li>
+<li id='liID55'>1009025</li>
+<li id='liID56'>1009026</li>
+<li id='liID57'>1009027</li>
+<li id='liID58'>1009028</li>
+<li id='liID59'>1009029</li>
+<li id='liID60'>1009030</li>
+<li id='liID61'>1009031</li>
+<li id='liID62'>1009032</li>
+<li id='liID63'>1009033</li>
+<li id='liID64'>1009034</li>
+<li id='liID65'>1009035</li>
+<li id='liID66'>1009036</li>
+<li id='liID67'>1009037</li>
+<li id='liID68'>1009038</li>
+<li id='liID69'>1009039</li>
+<li id='liID70'>1009040</li>
+<li id='liID71'>1009041</li>
+<li id='liID72'>1009042</li>
+<li id='liID73'>1009043</li>
+<li id='liID74'>1009044</li>
+<li id='liID75'>1009045</li>
+<li id='liID76'>1009046</li>
+<li id='liID77'>1009047</li>
+<li id='liID78'>1009048</li>
+<li id='liID79'>1009049</li>
+<li id='liID80'>1009050</li>
+<li id='liID81'>1009051</li>
+<li id='liID82'>1009052</li>
+<li id='liID83'>1009053</li>
+<li id='liID84'>1009054</li>
+<li id='liID85'>1009055</li>
+<li id='liID86'>1009056</li>
+<li id='liID87'>1009057</li>
+<li id='liID88'>1009058</li>
+<li id='liID89'>1009059</li>
+<li id='liID90'>1009060</li>
+<li id='liID91'>1009061</li>
+<li id='liID92'>1009062</li>
+<li id='liID93'>1009063</li>
+<li id='liID94'>1009064</li>
+<li id='liID95'>1009065</li>
+<li id='liID96'>1009066</li>
+<li id='liID97'>1009067</li>
+<li id='liID98'>1009068</li>
+<li id='liID99'>1009069</li>
+<li id='liID100'>1009070</li>
+<li id='liID101'>1009071</li>
+<li id='liID102'>1009072</li>
+<li id='liID103'>1009073</li>
+<li id='liID104'>1009074</li>
+<li id='liID105'>1009075</li>
+<li id='liID106'>1009076</li>
+<li id='liID107'>1009077</li>
+<li id='liID108'>1009078</li>
+<li id='liID109'>1009079</li>
+<li id='liID110'>1009080</li>
+<li id='liID111'>1009081</li>
+<li id='liID112'>1009082</li>
+<li id='liID113'>1009083</li>
+<li id='liID114'>1009084</li>
+<li id='liID115'>1009085</li>
+<li id='liID116'>1009086</li>
+<li id='liID117'>1009087</li>
+<li id='liID118'>1009088</li>
+<li id='liID119'>1009089</li>
+<li id='liID120'>1009090</li>
+<li id='liID121'>1009091</li>
+<li id='liID122'>1009092</li>
+<li id='liID123'>1009093</li>
+<li id='liID124'>1009094</li>
+<li id='liID125'>1009095</li>
+<li id='liID126'>1009096</li>
+<li id='liID127'>1009097</li>
+<li id='liID128'>1009098</li>
+<li id='liID129'>1009099</li>
+<li id='liID130'>1009100</li>
+<li id='liID131'>1009101</li>
+<li id='liID132'>1009102</li>
+<li id='liID133'>1009103</li>
+<li id='liID134'>1009104</li>
+<li id='liID135'>1009105</li>
+<li id='liID136'>1009106</li>
+<li id='liID137'>1009107</li>
+<li id='liID138'>1009108</li>
+<li id='liID139'>1009109</li>
+<li id='liID140'>1009110</li>
+<li id='liID141'>1009111</li>
+<li id='liID142'>1009112</li>
+<li id='liID143'>1009113</li>
+<li id='liID144'>1009114</li>
+<li id='liID145'>1009115</li>
+<li id='liID146'>1009116</li>
+<li id='liID147'>1009117</li>
+<li id='liID148'>1009118</li>
+<li id='liID149'>1009119</li>
+<li id='liID150'>1009120</li>
+<li id='liID151'>1009121</li>
+<li id='liID152'>1009122</li>
+<li id='liID153'>1009123</li>
+<li id='liID154'>1009124</li>
+<li id='liID155'>1009125</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <div class="col-sm-2 col-xs-12" style="display:none">
+                        Spin time: <input type="text" class="form-control " id="txt-example11-time" value="3000"/>
+                    </div>
+                    <div class="col-sm-2 col-xs-12" style="display:none">
+                        Stop time: <input type="text" class="form-control " id="txt-example11-stoptime" value="1500"/>
+                    </div>
+					<div style="height:50px"></div>
+                    <button type="button" class="btn btn-success btn-lg" id="btn-example11-start" style="padding:14px 54px;font-size:24px">Start Spin!</button>
+					
+
+
+                </div>
+                <div class="collapse" id="collapse-example11">
+                    <div class="well">
+                        <code>
+                            $('#btn-example11-start').click(function() {<br/>
+							 &nbsp;&nbsp;sound.play(); // Start play the sound after click button<br/>
+                            &nbsp;&nbsp;$('#example11 ul').playSpin({<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;time: $('#txt-example11-time').val(),<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;useStopTime: true,<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;stopTime: $('#txt-example11-stoptime').val(),<br/>
+                            &nbsp;&nbsp;});<br/>
+                            });
+							
+							
+							
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+</form>
+<canvas id="confetti"></canvas>
+    <div style="display:none">
+				<div id="deleteItem">
+				<ul id="ulList">
+				</ul>
+				</div>
+
+		<label id="tempStoreID">0</label>
+		<label id="tempStoreValue">0</label>
+    </div>
+</div>
+      
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/slotmachine.js"></script>
+
+    <script type="text/javascript">
+	
+	const button = document.querySelector('#button');
+	const canvas = document.querySelector('#confetti');
+	const jsConfetti = new JSConfetti();
+	const f = document.forms.todo;
+    const ul = f.querySelector("ul");
+	const rndInt = randomIntFromInterval(1, 6);
+	
+	function randomIntFromInterval(min, max) { // min and max included 
+	  return Math.floor(Math.random() * (max - min + 1) + min);
+	}
+
+
+
+		ul.addEventListener("click", function(event){
+		
+		
+		const clickedListItem = event.target;
+		
+
+		  if (clickedListItem.tagName === "LI") {
+			const delvalue = clickedListItem.textContent;
+			console.log("Clicked list item value:", delvalue);
+			
+			const list = document.getElementById('ulList');
+
+			// Create a new li element
+			const newItem = document.createElement('li');
+
+			// Set the text content of the li
+			newItem.textContent = delvalue;
+
+			// Append the li to the ul
+			list.appendChild(newItem);
+		  }
+		
+		  event.target.parentNode.removeChild(event.target)
+		});
+		
+        $('#btn-example1').click(function() {
+            $('#example1 ul').playSpin();
+        });
+
+        $('#btn-example2').click(function() {
+            var num1 = $('#txt-example2-1').val();
+            var num2 = $('#txt-example2-2').val();
+            var num3 = $('#txt-example2-3').val();
+            $('#example2 ul').playSpin({
+                endNum: [num1, num2, num3],
+            });
+        });
+
+       
+
+
+        //var sound = new Audio('ringtones/drum-roll1.mp3');
+		var sound = new Audio('ringtones/t8-drum.mp3');
+        var ding = new Audio('ringtones/tada2.mp3');
+        // Loop of playing sound
+        sound.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+
+        $('#btn-example8').click(function() {
+            sound.play(); // Start play the sound after click button
+            $('#example8 ul').playSpin({
+                time: 2000,
+                endNum: [1, 2, 7],
+                stopSeq: 'rightToLeft',
+                onEnd: function() {
+                    ding.play(); // Play ding after each number is stopped
+                },
+                onFinish: function() {
+                    sound.pause(); // To stop the looping sound is pause it
+                }
+            });
+        });
+		
+		/*$('#btn-example11-start').click(function() {
+            sound.play(); // Start play the sound after click button
+            $('#example11 ul').playSpin({
+                time: rndInt+2000,
+                endNum: [1, 2, 7],
+                stopSeq: 'rightToLeft',
+                onEnd: function() {
+                    ding.play(); // Play ding after each number is stopped
+                },
+                onFinish: function() {
+                    sound.pause(); // To stop the looping sound is pause it
+					//--------------------- Confetti in button click------------------
+										
+					jsConfetti.addConfetti({
+						//emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
+						confettiRadius: 6,
+						confettiNumber: 500,
+					}).then(() => jsConfetti.addConfetti())
+									
+					//-------------------- Confetti end -----------------------
+                }
+            });
+        });*/
+		
+		
+		 $('#btn-example11-start').click(function() {
+		 
+				 if($('#tempStoreID').text()=="0")			   
+				  {
+					
+					$("#removeLITest").remove();
+				  }
+				else
+					{
+						var TempStoreIDtoRemove=$('#tempStoreID').text();					
+						$('#' + TempStoreIDtoRemove).remove();					   
+					}
+		 
+				$("#MainULList li").removeAttr("id");
+				$("#MainULList li").each(function(index) {					
+				$(this).attr("id", "item-" + (index + 1));
+			});
+		       
+			    
+				
+				
+		 sound.play(); // Start play the sound after click button
+            $('#example11 ul').playSpin({
+                time: $('#txt-example11-time').val(),
+                useStopTime: true,
+                stopTime: $('#txt-example11-stoptime').val(),
+				 onEnd: function() {
+                    ding.play(); // Play ding after each number is stopped
+                },
+                onFinish: function(num) {
+				
+				
+				//var ItemID="liID"+num;
+				var ItemID="item-"+num;
+				
+				var ItemValue=$('#' + ItemID).html();
+				
+				
+				$('#tempStoreID').text(ItemID);
+				$('#tempStoreValue').text(ItemValue);
+				
+				//----------------------- Add Item into the winner list --------------------------
+				
+					const list = document.getElementById('ulList');
+
+					// Create a new li element
+					const newItem = document.createElement('li');
+
+					// Set the text content of the li
+					newItem.textContent = ItemValue;
+
+					// Append the li to the ul
+					list.appendChild(newItem);
+				
+				//-------------------------------------------------------------------------------
+
+				
+				
+                    sound.pause();
+					
+					
+					
+					jsConfetti.addConfetti({
+						//emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
+						confettiRadius: 6,
+						confettiNumber: 500,
+					}).then(() => jsConfetti.addConfetti())
+					}
+            });
+        });
+
+        $('#btn-example9-start').click(function() {
+            $('#example9 ul').playSpin({
+                manualStop: true
+            });
+        });
+
+        $('#btn-example9-stop').click(function() {
+            $('#example9 ul').stopSpin();
+        });
+
+        var numKeeptrack = 0;
+        $('#btn-example10-start').click(function() {
+            numKeeptrack = 3;
+            $('#example10 #first').playSpin({
+                manualStop: true
+            });
+            $('#example10 #second').playSpin({
+                manualStop: true
+            });
+            $('#example10 #third').playSpin({
+                manualStop: true
+            });
+        });
+
+        $('#btn-example10-stop').click(function() {
+            if (numKeeptrack == 3) {
+                $('#example10 #third').stopSpin();
+            } else if (numKeeptrack == 2) {
+                $('#example10 #second').stopSpin();
+            } else if (numKeeptrack == 1) {
+                $('#example10 #first').stopSpin();
+            }
+            numKeeptrack--;
+        });
+
+        $('#btn-example11-start').click(function() {
+		
+            $('#example11 ul').playSpin({
+			
+                time:20,// $('#txt-example11-time').val(),
+                useStopTime: true,
+                stopTime:2,// $('#txt-example11-stoptime').val(),
+            });
+        });
+    </script>
+</body>
+</html>
